@@ -14,6 +14,11 @@ body {
     font-family: 'Roboto', sans-serif;
     font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
 }
+.container {
+    max-width: 60em;
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
 h1 {
     color: #4B535D;
 }
