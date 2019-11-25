@@ -1,0 +1,19 @@
+* { box-sizing: border-box }
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0; /* tek út sjálgefið 10px margin */
+    grid-gap: 0;
+    background-image: url('myndir/Overwatchbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+}
+h1 {
+    color: #4B535D;
+}
