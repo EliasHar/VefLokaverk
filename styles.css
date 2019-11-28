@@ -22,3 +22,40 @@ body {
 h1 {
     color: #4B535D;
 }
+.topnav ul{
+    background: #f2f1ed; 
+    }
+    .topnav input {
+    display: none;
+    }
+    
+    .topmenu {
+    display: block;
+    /* position: fixed; */
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    
+    }
+    .topmenu li {
+    border: 0;
+    padding: 0;
+    margin:0;
+    }
+    .topmenu li {
+    border: 0;
+    padding: 0;
+    }
+    .topmenu a {
+    display: block;     /* ath! */
+    color: #4b535d;
+    text-decoration: none;
+    text-align: center;
+    padding: .4em 1em; 
+    }
+    .topmenu a:hover,
+    .topmenu a:active,
+    .virkur {
+    color: #ff8900 !important;
+    border-bottom: solid 3px #ff8900;
+    }
