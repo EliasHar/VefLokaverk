@@ -22,6 +22,15 @@ body {
 h1 {
     color: #4B535D;
 }
+.topnav {
+    grid-area: topnav;
+}
+.logo {
+    grid-area: logo;
+}
+.container {
+    grid-area: container;
+}
 .topnav ul{
     background: #f2f1ed; 
     }
@@ -51,11 +60,35 @@ h1 {
     color: #4b535d;
     text-decoration: none;
     text-align: center;
-    padding: .4em 1em; 
+    padding: .4em 1em;
+    padding-bottom: 3px; 
     }
     .topmenu a:hover,
     .topmenu a:active,
     .virkur {
     color: #ff8900 !important;
     border-bottom: solid 3px #ff8900;
+    padding-bottom: 0;
+
+    }
+    @media screen and (min-width: 48em) {
+        body {
+            height: 100%;
+            display: grid;
+            grid-template-areas: 
+            "topnav"
+            "logo"
+            "container";
+        }
+        .topmenu {
+            display: flex;
+            max-width: 60em;
+            justify-content: space-around;
+            margin: 2em auto;
+        }
+        .logo {
+            padding: 2em 0;
+            max-width: 60em;
+            margin: 1em auto .5em;
+        }
     }
