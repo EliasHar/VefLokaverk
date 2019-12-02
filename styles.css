@@ -31,6 +31,10 @@ h1 {
 .container {
     grid-area: container;
 }
+.copy {
+    color: black;
+    text-align: center;
+}
 .topnav ul{
     background: #f2f1ed; 
     }
