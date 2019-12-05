@@ -117,8 +117,8 @@ footer {
     align-self: auto;
 }
 footer {
+    color: #f2f1ed;
     background: #545454;
-    text-align: center;
     display: grid;
     grid-template-areas:
     "listi1" 
