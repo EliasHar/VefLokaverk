@@ -31,6 +31,18 @@ h1 {
 .container {
     grid-area: container;
 }
+.tank {
+    grid-area: tank;
+}
+.damage {
+    grid-area: damage;
+}
+.support {
+    grid-area: support;
+}
+.rolesTitle {
+    grid-area: rolesTitle;
+}
 .copy {
     color: black;
     text-align: center;
@@ -73,7 +85,15 @@ h1 {
     color: #ff8900 !important;
     border-bottom: solid 3px #ff8900;
     padding-bottom: 0;
-
+    }
+    .roles {
+        display: grid;
+        grid-template-areas: 
+        "tank damage support";
+        grid-gap: 2em;
+        text-align: center;
+        justify-content: space-evenly;
+        align-self: auto;
     }
     @media screen and (min-width: 48em) {
         body {
